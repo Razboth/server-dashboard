@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@material-tailwind/react": "^3.0.0-beta.23",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,9 +12,16 @@
     "@types/node": "^16.18.118",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "flowbite": "^2.5.2",
+    "flowbite-react": "^0.10.2",
+    "lucide-react": "^0.454.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +48,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }
