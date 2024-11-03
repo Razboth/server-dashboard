@@ -13,11 +13,11 @@ const Dashboard: React.FC = () => {
       
       <div className="mb-4">
       <Tabs defaultValue="Cloudeka">
-        <Tabs.List className="w-full bg-light text-black">
-          <Tabs.Trigger className="w-full" value="Cloudeka">
+        <Tabs.List className="w-full bg-white text-black shadow-xl">
+          <Tabs.Trigger className="w-full shadow-xl" value="Cloudeka">
             Cloudeka
           </Tabs.Trigger>
-          <Tabs.Trigger className="w-full" value="Samrat">
+          <Tabs.Trigger className="w-full shadow-xl" value="Samrat">
             Samrat
           </Tabs.Trigger>
           <Tabs.TriggerIndicator />
